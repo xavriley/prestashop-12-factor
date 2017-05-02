@@ -88,4 +88,4 @@ $ composer update
 
 ### SendGrid
 
-`SENDGRID_USERNAME` and `SENDGRID_PASSWORD` for SendGrind credentials.
+`SENDGRID_USERNAME` and `SENDGRID_PASSWORD` for SendGrid credentials.
