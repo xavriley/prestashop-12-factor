@@ -7,8 +7,8 @@
 		"ecommerce",
 		"cart"
 	],
-	"website": "https://github.com/absalomedia/prestashop-12factor",
-	"repository": "https://github.com//absalomedia/prestashop-12factor",
+	"website": "https://github.com/absalomedia/prestashop-12-factor",
+	"repository": "https://github.com/absalomedia/prestashop-12-factor",
 	"logo": "https://img-cdn.prestashop.com/media-kit/prestashop-vertical.png",
 	"success_url": "/",
 	"scripts": {
