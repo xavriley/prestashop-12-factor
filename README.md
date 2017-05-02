@@ -8,7 +8,7 @@ Prestashop, the [Twelve-Factor](http://12factor.net/) way: fully managed using C
 
 The Prestashop installation is fully contained in a `store` subfolder upon Heroku deployment. A `settings.inc.php` resides in the root of the project, and uses several different environment variables to control behavior.
 
-The configuration file is kept as generic as possible; on Heroku, add-ons [JawsDB](https://elements.heroku.com/addons/jawsdb) (for MySQL), [Bucketeer](https://elements.heroku.com/addons/bucketeer) (for S3 storage), and [SendGrid](https://elements.heroku.com/addons/sendgrid) (for E-Mails) are used.
+The configuration file is kept as generic as possible; on Heroku, add-ons [JawsDB](https://elements.heroku.com/addons/jawsdb) (for MySQL) and [SendGrid](https://elements.heroku.com/addons/sendgrid) (for E-Mails) are used.
 
 The assumption is that this installation runs behind a load balancer whose `X-Forwarded-Proto` header value can be trusted; it is used to determine whether the request protocol is HTTPS or not.
 
