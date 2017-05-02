@@ -87,13 +87,6 @@ $ composer update
 
 `DATABASE_URL` or `JAWSDB_URL` or `CLEARDB_DATABASE_URL` (format `mysql://user:pass@host:port/dbname`) for database connections.
 
-### AWS/S3
-
-* `AWS_ACCESS_KEY_ID` or `BUCKETEER_AWS_ACCESS_KEY_ID` for the AWS Access Key ID;
-* `AWS_SECRET_ACCESS_KEY` `BUCKETEER_AWS_SECRET_ACCESS_KEY` for the AWS Secret Access Key;
-* `S3_BUCKET` or `BUCKETEER_BUCKET_NAME` for the name of the S3 bucket;
-* `S3_REGION` for a non-default S3 region name.
-
 ### SendGrid
 
 `SENDGRID_USERNAME` and `SENDGRID_PASSWORD` for SendGrind credentials.
