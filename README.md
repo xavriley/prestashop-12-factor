@@ -39,12 +39,11 @@ $ composer install
 
 ### Create Application and Add-Ons
 
-Create a new app and add add-ons for MySQL, S3 and E-Mail:
+Create a new app and add add-ons for MySQL and E-Mail:
 
 ```
 $ heroku create
 $ heroku addons:create jawsdb
-$ heroku addons:create bucketeer
 $ heroku addons:create sendgrid
 ```
 
