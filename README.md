@@ -59,7 +59,7 @@ $ git push heroku master
 This will create tables and set up an admin user:
 
 ```
-$ heroku run 'composer prestashop-db-core --name='Prestashop on Heroku' --domain=example.herokuapp.com --db_server=localhost --db_name=prestashop --db_user=admin --db_password=admin --email=admin@example.com '
+$ heroku run 'composer prestashop-db-core --title='Prestashop on Heroku' --domain=example.herokuapp.com --db_server=localhost --db_name=prestashop --db_user=admin --db_password=admin --email=admin@example.com '
 ```
 
 ### Visit ecommerce store
