@@ -4,7 +4,7 @@
 	},
 	"scripts": {
 		"prestashop-setup-core": "prestashop new store --release=1.7.1.0 --fixture=starwars",
-		"prestashop-db-core": "php store/install/install_cli.php",
+		"prestashop-db-core": "[ -f store/install/install_cli.php ] && php store/install/install_cli.php || [ -f store/install/index_cli.php ] && php store/install/index_cli.php",
 		"prestashop-setup-clean": "php rename(realpath(dirname(__FILE__)).'/store/install',realpath(dirname(__FILE__)).'/store/archived')",
 		"prestashop-setup-welcome": [
 			"echo 'It works! Please see <a href=\"https://github.com/absalomedia/prestashop-12factor\">prestashop-12factor on GitHub</a> for info and post-install instructions.'"
